@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "neutralboolean.weighted.mixin.client",
+	"package": "com.neutralboolean.weighted.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
       "ArmorItemWeightMixin"
