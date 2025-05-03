@@ -1,0 +1,59 @@
+{
+	"schemaVersion": 1,
+	"id": "weighted",
+	"version": "${version}",
+	"name": "Weighted",
+	"description": "Armor weight classes, the intersection of Equipment Weight and Stamina Attributes.",
+	"authors": [
+		"neutralboolean"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/weighted/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.neutralboolean.weighted.Weighted",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.neutralboolean.weighted.WeightedClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.neutralboolean.weighted.datagen.WeightedDataGeneratorEntrypoint",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"weighted.mixins.json",
+		{
+			"config": "weighted.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"custom": {
+		"fzzy_config": [
+			"weighted"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

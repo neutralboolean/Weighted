@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.neutralboolean.weighted.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArmorLivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "neutralboolean.weighted.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+      "ArmorItemWeightMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

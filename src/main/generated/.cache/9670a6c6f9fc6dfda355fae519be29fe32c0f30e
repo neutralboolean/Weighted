@@ -1,0 +1,5 @@
+// 1.21.1	2025-04-08T15:15:56.6829063	Weighted/Tags for minecraft:item
+36993ba55cda15eac9dcc20de8261cb27ac1ec9d data\weighted\tags\item\weight\light.json
+76820f4b5c55bb32cb5eaa68313ed920df6c61fd data\weighted\tags\item\weight\heavy.json
+1b94bea5746759a465c690884ea66a9506a55990 data\weighted\tags\item\weight\extraheavy.json
+c5a26a067322c2b399964ab7cff330066442dc1d data\weighted\tags\item\weight\medium.json
