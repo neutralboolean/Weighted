@@ -15,7 +15,7 @@ import com.neutralboolean.weighted.Weighted.identifier
 
 @Version(0)
 @RequiresAction(Action.RELOAD_DATA)
-class ServerConfig: Config(identifier("armored_server")) {
+class ServerConfig: Config(identifier("weighted_server")) {
 
     var baseGroup = ConfigGroup("base_weight_group")
     var lightWeight = ValidatedDouble(1.0, 999.0, 0.0, ValidatedNumber.WidgetType.TEXTBOX)
