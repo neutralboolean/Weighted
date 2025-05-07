@@ -23,5 +23,7 @@
   "weighted.armored_server.lightWeight": "\"Light\" Armor Base Weight",
   "weighted.armored_server.lightWeight.desc": "The base weight of an individual \"light\"-class equipment piece.\n\nMinimum: 0.0",
   "weighted.armored_server.mediumWeight": "\"Medium\" Armor Base Weight",
-  "weighted.armored_server.mediumWeight.desc": "The base weight of an individual \"medium\"-class equipment piece.\n\nMinimum: 0.0"
+  "weighted.armored_server.mediumWeight.desc": "The base weight of an individual \"medium\"-class equipment piece.\n\nMinimum: 0.0",
+  "weighted.armored_server.statusEffectsSection.burdened": "Chest Weight Multiplier",
+  "weighted.armored_server.statusEffectsSection.burdened.desc": "Weight of equipment in the chestplate slot is multiplied by this value.\n\nMinimum: 0.0"
 }

@@ -25,16 +25,16 @@ public class ArmorItemWeightMixin {
         TagKey<Item> weightTag = WeightedStatics.INSTANCE.getWeightTag(stack);
         if (weightTag != null) {
             if (weightTag.id().equals(Weighted.INSTANCE.identifier("weight/light"))) {
-                tooltip.add(Text.translatable("text.armored.weight.light"));
+                tooltip.add(Text.translatable("text.weighted.weight.light"));
             }
             else if (weightTag.id().equals(Weighted.INSTANCE.identifier("weight/medium"))) {
-                tooltip.add(Text.translatable("text.armored.weight.medium"));
+                tooltip.add(Text.translatable("text.weighted.weight.medium"));
             }
             else if (weightTag.id().equals(Weighted.INSTANCE.identifier("weight/heavy"))) {
-                tooltip.add(Text.translatable("text.armored.weight.heavy"));
+                tooltip.add(Text.translatable("text.weighted.weight.heavy"));
             }
             else if (weightTag.id().equals(Weighted.INSTANCE.identifier("weight/extraheavy"))) {
-                tooltip.add(Text.translatable("text.armored.weight.extraheavy"));
+                tooltip.add(Text.translatable("text.weighted.weight.extraheavy"));
             }
         }
     }
